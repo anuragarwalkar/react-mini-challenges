@@ -13,9 +13,14 @@ const images = [
 function App() {
 
   return (
-    <>
+    <div style={{ 
+      maxWidth: "1200px",
+      width: "100%",
+      height: "500px",
+      margin: "0 auto"
+      }}>
       <ImageSlider data={images} />
-    </>
+    </div>
   )
 }
 
